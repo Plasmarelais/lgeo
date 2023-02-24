@@ -16,7 +16,7 @@
 #declare lg_angle=atan2(3*LG_BRICK_WIDTH-3*LG_WALL_WIDTH/7, 7*LG_BRICK_WIDTH-LG_WALL_WIDTH);
 #declare lg_4475 =
 union {
- #declare MIR = 0
+ #declare MIR = 0;
  #while (MIR < 2)
   union {
    sphere {
